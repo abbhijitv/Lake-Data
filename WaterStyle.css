@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; 
+    color: #333;
+}
+
+header {
+    background-color: #3b7dd8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 0 0 8px 8px;
+}
+
+.year-section {
+    margin-top: 30px;
+}
+
+.year-section h2 {
+    background-color: #2e7d32; 
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px; 
+    text-align: center;
+}
+
+th {
+    background-color: #d0e8f2; /* Light blue-gray for table headers */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* Light blue highlight on hover */
+}
+
+td {
+    color: #555; /* Darker gray for table text */
+}
