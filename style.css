@@ -71,3 +71,20 @@ tr:hover {
 td {
     color: #555; /* Darker gray for table text */
 }
+/* Data Summary Background Box Styling */
+.summary-box {
+    background-color: #f0f8ff; /* Light blue background color */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Text styling within the summary */
+.summary-box p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
