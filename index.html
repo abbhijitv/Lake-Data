@@ -13,39 +13,41 @@
     <header>
         <h1>Water Quality Data</h1>
     </header>
-    <div style="text-align: center;">
-        <h2>Select Year</h2>
-        <select id="yearSelect" style="width: 15%; text-align: center; display: block; margin: auto; margin-top: 10px;">
-            <option value="2021">2023</option>
-            <option value="2022">2022</option>
-            <option value="2023">2021</option>
-        </select>
-    </div>
-    <div>
-        <table id="display-table" style="margin-bottom: 20px;">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>pH</th>
-                    <th>Temperature (°C)</th>
-                    <th>Dissolved Oxygen (mg/L)</th>
-                    <th>Transparency (m)</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
     <main>
         
-<h2>Your Input matters to us!!</h2>
+        <h2>Your Input matters to us!!</h2>
 
-<form>
-  <label for="how">How do you think the lake is?</label><br>
-  <input type="text" id="how" name="how" <br><br> 
-  <label for="comment">Do you have any additional comment? Please add them here.</label><br>
-  <input type="text" id="comment" name="comment"<br><br>
-  <input type="submit" value="Submit">
-</form> 
+        <form>
+        <label for="how">How do you think the lake is?</label><br>
+        <input type="text" id="how" name="how" <br><br> 
+        <label for="comment">Do you have any additional comment? Please add them here.</label><br>
+        <input type="text" id="comment" name="comment"<br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+        <div style="text-align: center;">
+            <h2>Select Year</h2>
+            <select id="yearSelect" style="width: 15%; text-align: center; display: block; margin: auto; margin-top: 10px;">
+                <option value="2021">2023</option>
+                <option value="2022">2022</option>
+                <option value="2023">2021</option>
+            </select>
+        </div>
+        <div>
+            <table id="display-table" style="margin-bottom: 20px;">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>pH</th>
+                        <th>Temperature (°C)</th>
+                        <th>Dissolved Oxygen (mg/L)</th>
+                        <th>Transparency (m)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
        <!-- 2021 Data Summary Section with Background Box -->
         <section id="year-2021-summary" class="data-summary">
             <div class="summary-box">
